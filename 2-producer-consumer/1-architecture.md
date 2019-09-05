@@ -5,4 +5,6 @@
 
 ## This is the final architecture of what this exercise is about
 
-![logo](architecture.png)
+The application you downloaded (msk-workshop-apps) contains a **producer** script and a **consumer** script. These will be used in the next excersice to show a basic pub/sub architecture.
+
+![screenshot](img/architecture.png)
