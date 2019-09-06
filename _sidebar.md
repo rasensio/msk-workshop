@@ -16,6 +16,11 @@
   - [Start the producer](2-producer-consumer/4-start-producer.md)
   - [Start the consumer](2-producer-consumer/5-start-consumer.md)
 
+- Excersise #2
+
+  - [Architecture](3-nuclear-plant/1-architecture.md)
+  - [Set configuration](3-nuclear-plant/2-set-configuration.md)
+
 - Guide
 
   - [Deploy](deploy.md)

@@ -21,6 +21,8 @@ You will discover the associated security group for Cloud9 and allow all ports i
 export INSTANCE_ID=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.instanceId')
 export IDE_SEC_GROUP=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID | jq -r '.Reservations[0].Instances[0].SecurityGroups[0].GroupId')
 export MSK_SEC_GROUP=$(aws kafka list-clusters | jq -r '.ClusterInfoList[0].BrokerNodeGroupInfo.SecurityGroups[0]')
+echo "export IDE_SEC_GROUP=${IDE_SEC_GROUP}" >> ~/.bash_profile
+echo "export MSK_SEC_GROUP=${MSK_SEC_GROUP}" >> ~/.bash_profile
 ```
 
 Now allow the MSK security group access from the Cloud9 security group
