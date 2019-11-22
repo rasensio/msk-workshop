@@ -5,3 +5,4 @@ Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed servic
 The following diagram provides an overview of how Amazon MSK works.
 
 ![logo](../_media/msk-architecture-visio-reduced-size.png)
+
